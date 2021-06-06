@@ -37,5 +37,10 @@ const displayController = (function() {
     }
 })();
 
+// FACTORIES
+const createPlayer = (name) => {
+    return { name, };
+};
+
 // RUNTIME
 displayController.displayBoard();
