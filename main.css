@@ -24,6 +24,11 @@
     padding: 1rem;
 
     border: 2px solid black;
+    border-collapse: collapse;
+}
+
+div.data-id\=0, div.data-id\=1, div.data-id\=2 {
+    border-top-width: 0px;
 }
 
 .board > div:hover {
