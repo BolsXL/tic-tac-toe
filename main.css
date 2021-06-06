@@ -18,3 +18,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+
+.board > div {
+    font-size: 2rem;
+    padding: 1rem;
+
+    border: 2px solid black;
+}
+
+.board > div:hover {
+    cursor: pointer;
+}

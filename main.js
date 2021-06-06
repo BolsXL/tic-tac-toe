@@ -19,9 +19,13 @@ const displayController = (function() {
 
     // FUNCTIONS
     const displayBoard = () => {
-        gameBoard.boardArray.forEach(e => {
+        gameBoard.boardArray.forEach((e, key) => {
             let newDiv = document.createElement('div');
             newDiv.textContent = String(e);
+            newDiv.classList.add(`data-id=${key}`);
+            newDiv.addEventListener('click', e => {
+
+            })
             board.appendChild(newDiv);
         });
     }
